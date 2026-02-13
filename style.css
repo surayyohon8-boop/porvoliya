@@ -1,0 +1,227 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+.n {
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 150px;
+
+}
+.a{
+    display: flex;
+    gap: 15px   ;
+}
+.nav {
+    font-size: 30px;
+    display: inline;
+    color: white;
+}
+
+.nav2 { 
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+
+.nav3 {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+    
+/* nav tugadi */
+/* Home boshlandi */
+#Home {
+    width: 100%;
+    padding-top: 50px;
+    display: flex;  
+    background: url(https://static-cse.canva.com/blob/2286032/vk1776.png);
+    padding-block: 200px;
+    color: white;
+}
+
+.Home1 {
+    padding-top: 50px;
+    font-size: 59px;
+    padding-left: 50px;
+}
+
+.Home2 {
+    width: 360px;
+    height: 400px;
+    margin-left: 300px;
+}
+
+.Home3 {
+    height: 400px;
+    font-size: 60px;
+    padding-top: 150px;
+    rotate: -90deg;
+}
+
+/* Home tugadi */
+/* About boshlandi */
+#About {
+    width: 100%;
+    background-color: rgb(241, 240, 240);
+    padding: 50px 25px;
+    box-shadow: 0 0 15px 15px rgba(224, 224, 224, 0.367);
+    background: url(https://gb.ru/blog/wp-content/uploads/2021/12/03-7.jpg.webp);
+    padding-top: 100px;
+}
+
+.About1 {
+    font-size: 34px;
+    text-align: center;
+}
+
+.About2 {
+    padding-top: 25px;
+    
+    font-size: 29px;
+    text-align: justify;
+}
+
+/* About tugadi */
+/* Skills boshlandi */
+#Skills{
+    width: 100%;
+    height: 106vh;
+    padding-top: 100px;
+    background: url(https://media.istockphoto.com/id/835370890/photo/sunset-sunrise-with-clouds-light-rays-and-other-atmospheric-effect.jpg?s=612x612&w=0&k=20&c=zGDOBYVFY74wX2gUgkonYGtNl1zenev5mPotAqUlJbM=) no-repeat center / cover;
+
+}
+.Skills1{
+    display: inline-block;
+}
+.Skills2{
+    font-size: 50px;
+    padding-left: 210px;
+}
+.Skills3{
+    display: inline-block;
+    padding-left: 200px;
+}
+.Skills4{
+    font-size: 60px;
+}
+.p1{
+    background: url(https://media.istockphoto.com/id/835370890/photo/sunset-sunrise-with-clouds-light-rays-and-other-atmospheric-effect.jpg?s=612x612&w=0&k=20&c=zGDOBYVFY74wX2gUgkonYGtNl1zenev5mPotAqUlJbM=) no-repeat center / cover;
+
+}
+/* Skills tugadi */
+/* projects boshlandi */
+
+#projects{
+    width: 100%;
+    padding-top: 100px;
+    background: url(https://static-cse.canva.com/blob/2286032/vk1776.png);
+}
+.projects1{
+    font-size: 40px;
+}
+.projects2{
+    font-size: 40px;
+    text-decoration: none;
+}
+.p1{
+    background-color: black;
+}
+/* projects tugadi */
+/* family boshlandi */
+#family{
+    width: 100%;
+    padding-top: 100px;
+    background: url(https://media.istockphoto.com/id/835370890/photo/sunset-sunrise-with-clouds-light-rays-and-other-atmospheric-effect.jpg?s=612x612&w=0&k=20&c=zGDOBYVFY74wX2gUgkonYGtNl1zenev5mPotAqUlJbM=) no-repeat center / cover;
+}
+.q1{
+    font-weight: bold;
+    color: white;
+    font-size: 50px;
+}
+.w1{
+    width: 500px;
+    background-color: rgba(32, 206, 206, 0.447);
+    padding: 20px 30px;
+    box-shadow: 0 0 15px 5px teal;
+    border-radius: 20px;
+}
+.w1 p{
+    font-weight: bold;
+    border-left:2px solid wheat;
+    margin: 10px 0;
+    padding-left: 5px;
+}
+.badge{
+    background-color: teal;
+    padding: 5px 15px;
+    border-radius: 30px;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+}
+.family1{
+    width: 150px;
+    height: 250px;
+
+}
+.family-wrapper{
+    padding: 0 100px;
+    display: flex;
+    gap: 50px;
+}
+
+/* family tugadi */
+/* footer boshlandi */  
+footer {
+  background: #333;
+  color: #fff;
+  padding: 40px 0 20px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.footer-info h3 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  color: #4CAF50;
+}
+
+.footer-info p {
+  font-size: 1rem;
+  color: #fff;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 15px;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #4CAF50;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: #aaa;
+}
