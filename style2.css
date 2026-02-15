@@ -53,6 +53,7 @@ ul { list-style: none; }
 .nav2:hover,.nav3:hover{
     color:#38bdf8;
 }
+
 /* HOME */
 #Home {
     min-height:100vh;
